@@ -48,6 +48,9 @@ Go ahead and power on the virtual machine.
 
 Continue through the setup and select "Windows Server 2022 Standard Evaluation (Desktop Experience)."
 
+![desk](/AD-Lab-Build/Images/serverdesk.png)
+
+
 Select Next until you reach a section asking about installation type. Select "Custom" > "New" > "Apply" > "Okay." Press Next and wait for the installation to complete.
 
 

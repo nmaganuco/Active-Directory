@@ -42,6 +42,7 @@ Select the Server 2022 ISO file and leave the default options but do not press "
 
 Edit the virtual machine settings and change the memory to between 4GB and 8GB and remove the floppy disk.
 
+![Server](/AD-Lab-Build/Images/server.png)
 
 
 

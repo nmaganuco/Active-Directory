@@ -25,9 +25,10 @@
 
 <p align="center">
 <h2> Downloading Windows 10 and Windows Server 2022 ISO </h2> 
-  <b> Head to the links provided above and download the ISO's. You do not need to provide valid information when you register. </b>
+  <b> Head to the links provided above and download the ISO's. You do not need to provide valid information when you register. 
+  </b>
 <br />
-<br />
-<img src="https://i.imgur.com/OOC4jKg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
+
+
+
+![ISO](/AD-Lab-Build/Images/iso.png)

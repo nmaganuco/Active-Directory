@@ -44,5 +44,11 @@ Edit the virtual machine settings and change the memory to between 4GB and 8GB a
 
 ![Server](/AD-Lab-Build/Images/server.png)
 
+Go ahead and power on the virtual machine.
+
+Continue through the setup and select "Windows Server 2022 Standard Evaluation (Desktop Experience)."
+
+Select Next until you reach a section asking about installation type. Select "Custom" > "New" > "Apply" > "Okay." Press Next and wait for the installation to complete.
+
 
 

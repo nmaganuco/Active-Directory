@@ -24,11 +24,24 @@
 <h2>Lab walk-through:</h2>
 
 <p align="center">
-<h2> Downloading Windows 10 and Windows Server 2022 ISO </h2> 
-  <b> Head to the links provided above and download the ISO's. You do not need to provide valid information when you register. 
-  </b>
-<br />
+<h3> Downloading Windows 10 and Windows Server 2022 ISO </h3> 
+  Head to the links provided above and download the ISO's. You do not need to provide valid information when you register. 
+
 
 
 
 ![ISO](/AD-Lab-Build/Images/iso.png)
+
+<h3>Setting up the Domain Controller</h3>
+
+I am using VMware but you can use VirtualBox if you already have that installed.
+
+Select "Create a New Virtual Machine."
+
+Select the Server 2022 ISO file and leave the default options but do not press "Finish." On the last screen, remove the checkmark to power on the virtual machine and then select "Finish."
+
+Edit the virtual machine settings and change the memory to between 4GB and 8GB and remove the floppy disk.
+
+
+
+

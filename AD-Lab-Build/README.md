@@ -75,6 +75,9 @@ Continue through the setup and add a password. Keeping selecting "Next" and then
 
 We now need to set up certificate services. Select "Manage" > "Add Roles and Features" and install Active Directory Certificate Services.
 
+![adcs2](https://github.com/user-attachments/assets/db3a2155-b202-438c-a42e-4f3e9208ce90)
+
+
 Once that is completed, select "Configure Active Directory Certificate Services."
 
 Select "Next" > check "Certification Authority" > leave everything else as default. Then reboot the server.

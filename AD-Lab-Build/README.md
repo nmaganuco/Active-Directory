@@ -116,3 +116,45 @@ Windows will now begin installing and will restart when completed.</b>
 Select your Region and Keyboard layout.</b>
 
 Press "Domain join instead" and add a name for the user, as well as a password. </b>
+
+Fill out the security questions. </b> 
+
+Choose your preferred privacy settings. (preferably no) </b> 
+
+Select Accept. </b>
+
+Select Not Now for Cortana. </b>
+
+Once Windows is fully installed, rename the pc and reboot.
+
+<h3>Setting up the Users/Groups/Policies</h3>
+
+Let's return to the Windows Server. Select Tools > Active Directory Users and Computers.
+
+![admin](https://github.com/user-attachments/assets/c99d0d21-a262-4e38-9dc8-c272be0a3e96)
+
+Right click on the Administrator and select "Copy." We are going to create our domain admin.
+
+Name the user and make sure that the logon name is first inital last name. Add a password and uncheck password never expires.
+
+Make another copy of the Admin, but this time its going to act as an service account.
+
+I created a SQL Service account with an easy password.
+
+Now we are going to create 2 users for the workstations. Right click the blank white space and select New > Users.
+
+Create the users the same way we did earlier for the admin account.
+
+We are going to create a file share.
+
+![share](https://github.com/user-attachments/assets/e9b4f595-7514-4959-bce1-27f403dd10d6)
+
+Select File and Storage Services > Shares > New Share. Name the share and leave everything as default.
+
+Next, we are going to fully set up the service account. Look at the photo below and adjust the domain name and domain controller name as needed.
+
+![Screenshot 2024-12-06 083021](https://github.com/user-attachments/assets/8829d7ef-628a-4a2b-aa8b-f7c6947c3600)
+
+You should see "Updated Object" if done correctly.
+
+Finally, we are going to set up group policies.

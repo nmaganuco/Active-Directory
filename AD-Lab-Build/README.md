@@ -53,5 +53,16 @@ Continue through the setup and select "Windows Server 2022 Standard Evaluation (
 
 Select Next until you reach a section asking about installation type. Select "Custom" > "New" > "Apply" > "Okay." Press Next and wait for the installation to complete.
 
+Once the server reboots, you will be asked to create a password for the administrator. Add a password and select "Finish."
 
+Login to the admin account.
 
+We are now going to name the computer.
+
+Type "Name" in the search bar and select "View your PC name."
+
+Rename the PC to whatever you'd like and reboot.
+
+Now we need to make this server a domain Controller. Select "Manage" > "Add Roles and Features" and install ADDS.
+
+Select "Promote this server to a domain controller."

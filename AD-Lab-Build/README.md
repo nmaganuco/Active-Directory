@@ -178,3 +178,9 @@ On the server, search cmd to open the command prompt. Type ipconfig and write do
 ![ipv4](https://github.com/user-attachments/assets/b946067c-66c1-4ec6-8791-6657de79b303)
 
 Next, go to one of your workstations and right click the network symbol on the bottom right. Select Open Network & Internet Settings > Change adapter options > Ethernet0 > Properties > IPv4. Under preferred DNS server, write down the IPv4 address of the server. Press okay.
+
+Next, type domain in the search bar and select Access Work or School > Connect > Join this device to a local Active Directory domain.
+
+Write down your domain name with the admin credentials. Click next and restart the workstation. Do this for both.
+
+We now have our DC and 2 workstations.

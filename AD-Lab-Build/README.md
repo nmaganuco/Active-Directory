@@ -66,3 +66,15 @@ Rename the PC to whatever you'd like and reboot.
 Now we need to make this server a domain Controller. Select "Manage" > "Add Roles and Features" and install ADDS.
 
 Select "Promote this server to a domain controller."
+
+![dc](/AD-Lab-Build/Images/dc.png)
+
+Select "Add a new forest" and name it whatever you'd like.
+
+Continue through the setup and add a password. Keeping selecting "Next" and then "Install." The Domain Controller will reboot after a couple minutes.
+
+We now need to set up certificate services. Select "Manage" > "Add Roles and Features" and install Active Directory Certificate Services.
+
+Once that is completed, select "Configure Active Directory Certificate Services."
+
+Select "Next" > check "Certification Authority" > leave everything else as default. Then reboot the server.

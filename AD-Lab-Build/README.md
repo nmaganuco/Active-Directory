@@ -81,3 +81,38 @@ We now need to set up certificate services. Select "Manage" > "Add Roles and Fea
 Once that is completed, select "Configure Active Directory Certificate Services."
 
 Select "Next" > check "Certification Authority" > leave everything else as default. Then reboot the server.
+
+<h3>Setting up Users</h3>
+
+![windows](https://github.com/user-attachments/assets/bdbe9a0e-d9e9-4244-ba7e-400a4eecafb4)
+
+You will be doing this twice for 2 Windows Workstations. On VMWare, select "Create a new virtual machine." </b>
+
+Browse and select the recently downloaded Windows 10 Iso file. </b>
+
+Do not worry about the product key, just press Next. </b>
+
+You can leave the default disk capacity. </b>
+
+Make sure to uncheck "Power on this virtual machine after creation." </b>
+
+Select Close and then Finish.</b>
+
+Click "Edit virtual machine settings" and remove the Floppy drive. </b>
+
+You can now start the Windows 10 virtual machine. Make sure to press a key when it launches to boot into the ISO. </b>
+
+You will be presented with the Windows Setup. </b>
+<br />
+<br />
+<img src="https://i.imgur.com/sHJ01jQ.png"/>
+<br />
+<br />
+
+Select Next > Install Now > Agree to the license terms > Next > Custom > New > Apply > Next.</b>
+
+Windows will now begin installing and will restart when completed.</b>
+
+Select your Region and Keyboard layout.</b>
+
+Press "Domain join instead" and add a name for the user, as well as a password. </b>

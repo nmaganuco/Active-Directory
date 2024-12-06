@@ -158,3 +158,23 @@ Next, we are going to fully set up the service account. Look at the photo below 
 You should see "Updated Object" if done correctly.
 
 Finally, we are going to set up group policies.
+
+Search "Group Policy Management."
+
+Right click your .local and create a GPO. Name it "Disable Windows Defender." Then right click the GPO and edit it.
+
+![Screenshot 2024-12-06 115929](https://github.com/user-attachments/assets/b8155566-e9cd-40f0-aff8-2102b6ab582e)
+
+Under Computer Configuration, select Policies > Administrative Templates > Windows Components and select Microsoft Defender Antivirus.
+
+Double click "Turn off Microsoft Defender Antivirus" Select Enable > Apply > Okay.
+
+Exit out of the window. Right click "Disable Windows Defender" and select "Enforced."
+
+<h3>Adding Workstations to the Domain</h3>
+
+On the server, search cmd to open the command prompt. Type ipconfig and write down the IPv4 address.
+
+![ipv4](https://github.com/user-attachments/assets/b946067c-66c1-4ec6-8791-6657de79b303)
+
+Next, go to one of your workstations and right click the network symbol on the bottom right. Select Open Network & Internet Settings > Change adapter options > Ethernet0 > Properties > IPv4. Under preferred DNS server, write down the IPv4 address of the server. Press okay.
